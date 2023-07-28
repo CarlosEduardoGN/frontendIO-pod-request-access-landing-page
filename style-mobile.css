@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&family=IBM+Plex+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 375px;
+    height: 667px;
+    flex-shrink: 0;
+}
+.logo{
+    position: absolute;
+    top:62px;
+    left: 120px;
+}
+.logo img{
+    width: 134.851px;
+    height: 56px;
+    flex-shrink: 0;
+}
+.bg-image{
+    position: absolute;
+    top: 0px;
+    right:0px; 
+}
+.bg-image img{
+    width: 375px;
+    height: 667px;
+    flex-shrink: 0;
+}
+.img-mask{
+    width: 375px;
+    height: 667px;
+    flex-shrink: 0;
+    background-color: #121725;
+    opacity: 0.8992919683456421;
+}
+#bg1{
+    display:none;
+}
+#bg2{
+    display: none;
+}
+.dots{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+.dots img{
+    display: none;
+    width: 232px;
+    height: 104px;
+    flex-shrink: 0;
+}
+.blue-rect{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 667px;
+    flex-shrink: 0;
+}
+.rect-tittle{
+    position: absolute;
+    top: 175px;
+    left: 24px;
+    width: 327px;
+    color: #54E6AF;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 146.154% */
+    text-transform: uppercase;
+}
+.rect-tittle span{
+    color: #FFF;
+}
+.rect-text{
+    position: absolute;
+    top: 267px;
+    left: 24px;
+    width: 327px;
+    color: #C2CBE5;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.email-button{
+    position: absolute;
+    top: 465px;
+    left: 24px;
+    width: 327px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #2C344B;
+}
+.email-adress{
+    all: unset;
+    position: absolute;
+    top: 9px;
+    left: 32px;
+    width: 200px;
+    height: 28px;
+    color: #FFF;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    opacity: 0.5;
+    background: #2C344B;
+}
+
+input[type=submit] {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 62px;
+    right: 0px;
+    width: 327px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #54E6AF;
+    box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+    color: #121725;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #B3FFE2;
+}
+.error-msg{
+    position: absolute;
+    bottom: 75px;
+    left: 92px;
+    width: 175px;
+    height: 14px;
+    color: #FB3E3E;
+    font-family: Chivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.spotify{
+    position: absolute;
+    bottom: 250px;
+    left: 30px;
+    width: 56px;
+    height: 17px;
+    flex-shrink: 0;
+}
+.spotify img{
+    width: 56px;
+    height: 17px;
+    flex-shrink: 0;
+}
+.apple{
+    position: absolute;
+    bottom: 250px;
+    left: 109px;
+    width: 45px;
+    height: 17px;
+    flex-shrink: 0;
+}
+.apple img{
+    width: 45px;
+    height: 17px;
+    flex-shrink: 0;
+}
+.google{
+    position: absolute;
+    bottom: 253px;
+    left: 179px;
+    width: 73px;
+    height: 11px;
+    flex-shrink: 0;
+}
+.google img{
+    width: 73px;
+    height: 11px;
+    flex-shrink: 0;
+}
+.pocket{
+    position: absolute;
+    bottom: 251px;
+    right: 30px;
+    width: 77px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.pocket img{
+    width: 77px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
